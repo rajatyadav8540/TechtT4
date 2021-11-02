@@ -324,7 +324,7 @@
       <div class="row text-center">
         <div class="col-md-4">
           <div class="serv-img">
-            <img src="static/adharshila.png" class=" img-fluid">
+            <img src="static/aadharshila.png" class=" img-fluid">
           </div>
           <h4> Aadharshila</h4>
         </div>
