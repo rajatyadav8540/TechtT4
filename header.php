@@ -293,6 +293,7 @@ li a: hover{
 </style>
 </head>
   <body>
+    <?php require 'common.php' ?>
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" onscroll="BgWhite()" id="n1" style="background:white; height:70px;" id="bgWhite">
 <div class="container">
   <a class="navbar-brand " id="loog" href="/" style="width: fit-content"><img src="static/logo.png" style="width: 55px; height: 55px; overflow: hidden; border-radius: 50%;"></a>
@@ -301,12 +302,12 @@ li a: hover{
     <div class="navbar-nav ml-auto " >
         <div id="mySidepanel" class="sidepanel overflow-hidden">
         <ul style="margin-top: -50px;">
-          <li class="db"><a href="">Home</a></li>
+          <li class="db"><a href="index.php">Home</a></li>
           <li class="db"><a href="company.php">About Us</a></li>
           <li class="db"><a href="services.php">Services</a></li>
           <li class="db"><a href="products.php">Products</a></li>
           <li class="db"><a href="projects.php">Projects</a></li>
-          <li class="db"><a href="blogs.php">Blogs</a></li>
+          <li class="db"><a href="bloglist.php">Blogs</a></li>
           <li class="db"><a href="contact.php">Contact Us</a></li>
           <button class="closebtn text-decoration-none"  onclick="closeNav()"><img src="static/x.svg" id="rot" class="sv rotate"></img></button>
         </ul>

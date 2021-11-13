@@ -454,7 +454,34 @@
 <br>
 <br>
 </section>
+<div id="myModal" class="modal fade ">
+            <div class="modal-dialog modal-xl h-100">
+                <div class="modal-content ">
+
+                    <div class="modal-header">
+                        <h4 class="modal-title mx-auto">Important Announcement!</h4>
+                        <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+                    </div>
+
+                    <div class="modal-body p-0 mx-auto" style="height:75vh;">
+                       <img src="img/kys2.jpeg" alt="" class="img-fluid mx-auto h-100">
+                    </div>
+
+                    <div class="modal-footer">
+                    <p>To register for this event  <a href="https://d2c.pw/uemeWj" class="active text-primary">Click here.</a></p> <br>
+                      <p class="text-center">For more information go to our &nbsp; <a href="donation.php"><button class="btn btn-success">Events</button></a></p>
+                      <p class="text-center">and &nbsp; <a href="gallery.php"><button class="btn btn-success">Posts</button></a></p>
+                    </div>
+
+                </div>
+            </div>
+      </div>
 <?php require 'footer.php'?>
+<script>
+    $(document).ready(function(){
+        $("#myModal").modal('show');
+    });
+    </script>
 <script>
   var slideIndex = 1;
   showSlides(slideIndex);

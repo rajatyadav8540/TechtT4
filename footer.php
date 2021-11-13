@@ -246,13 +246,13 @@ p, ul li, ol li {
                         <div class="FootAdhar_part m-top-15">
                             <h5>Important Links</h5>
                             <ul class="FootAdhar_links">
-                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>HOME</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>SERVICES</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>BLOGS</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>CONTACT</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>COMPANY</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>PROJECT</a></li>
-                                <li><a href="#"><i class="fa fa-angle-right" aria-hidden="true"></i>PRODUCT</a></li>
+                                <li><a href="index.php"><i class="fa fa-angle-right" aria-hidden="true"></i>HOME</a></li>
+                                <li><a href="services.php"><i class="fa fa-angle-right" aria-hidden="true"></i>SERVICES</a></li>
+                                <li><a href="blogs.php"><i class="fa fa-angle-right" aria-hidden="true"></i>BLOGS</a></li>
+                                <li><a href="contact.php"><i class="fa fa-angle-right" aria-hidden="true"></i>CONTACT</a></li>
+                                <li><a href="company.php"><i class="fa fa-angle-right" aria-hidden="true"></i>COMPANY</a></li>
+                                <li><a href="projects.php"><i class="fa fa-angle-right" aria-hidden="true"></i>PROJECT</a></li>
+                                <li><a href="products.php"><i class="fa fa-angle-right" aria-hidden="true"></i>PRODUCT</a></li>
                             </ul>
                         </div>
                     </div>
