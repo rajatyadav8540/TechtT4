@@ -61,7 +61,7 @@
                     <br>
                     <h5 class="text-decoration">Visit links :</h5>
                     <a href="https://play.google.com/store/apps/details?id=com.yash.satkarya"><img src="static/play-storeb.png" class="links img-fluid"></a>
-                    <a href="http://satkarya.com/"><img src="/static/globalb.png" class="links img-fluid"></a>
+                    <a href="http://satkarya.com/"><img src="static/globalb.png" class="links img-fluid"></a>
 
                 </div>
             </div>
