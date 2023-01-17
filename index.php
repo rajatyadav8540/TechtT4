@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Title</title>
+    <title>Techtitude Tribe</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -459,18 +459,20 @@
                 <div class="modal-content ">
 
                     <div class="modal-header">
-                        <h4 class="modal-title mx-auto">Important Announcement!</h4>
+                        <h4 class="modal-title mx-auto">I</h4>
                         <button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
                     </div>
 
                     <div class="modal-body p-0 mx-auto" style="height:75vh;">
-                       <img src="img/kys2.jpeg" alt="" class="img-fluid mx-auto h-100">
+                       <form action="" method="get">
+                        <input type="text" placeholder="Name" name="Name">
+                        <input type="text" placeholder="Email" name="Email">
+                        <input type="text" placeholder="In which service you are interested" name="Service">
+                       </form>
                     </div>
 
                     <div class="modal-footer">
-                    <p>To register for this event  <a href="https://d2c.pw/uemeWj" class="active text-primary">Click here.</a></p> <br>
-                      <p class="text-center">For more information go to our &nbsp; <a href="donation.php"><button class="btn btn-success">Events</button></a></p>
-                      <p class="text-center">and &nbsp; <a href="gallery.php"><button class="btn btn-success">Posts</button></a></p>
+                      
                     </div>
 
                 </div>

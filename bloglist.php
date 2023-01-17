@@ -12,7 +12,7 @@
   <body>
   <?php require 'header.php' ?>
   <?php
-    $quer='SELECT * FROM bloglist';
+    $quer='SELECT * FROM bloglist ';
     $querr= mysqli_query($con, $quer);
     
   ?>
@@ -26,7 +26,7 @@
                  <img src="<?=$gnum[4]?>" alt="" class="img-fluid">
                  <h3 class="text-center text-decoration-none"><a href="blogpost.php?id=<?=$gnum[0]?>" class="stretched-link "><?=$gnum[1]?></a></h3>
                </div>
-               <div class="card-footer text-truncate"><?=$gnum[2]?></div>
+               <div class="card-footer" style="align-content:justify"><?=substr($gnum[2],0,50)?></div>
               </div>
             </div>
             <?php }?>

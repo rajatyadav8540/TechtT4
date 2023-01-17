@@ -27,14 +27,14 @@
           </div>
           <div class="card-body">
             <img src="<?=$postrd[4]?>" alt="" class="img-fluid">
-            <p class=""><?=$postrd[2]?></p><?=$_GET['page']?>
+            <p class=""><?=$postrd[2]?></p>
           </div>
         </div>
       </div>
       <div class="col-lg-3 card p-0">
         <div class="card-header text-center h3 bg-primary">Recent Posts</div>
         <?php
-        $list="SELECT * FROM bloglist ORDER BY id DESC";
+        $list="SELECT * FROM bloglist ORDER BY id DESC LIMIT 3";
         $listr=mysqli_query($con, $list);
        while($listrd=mysqli_fetch_array($listr)){
         ?>
@@ -42,7 +42,7 @@
           <div class="card-body"><img src="<?=$listrd[4]?>" alt="" class="img-fluid"></div>
           <div class="card-footer">
             <h3 class="text-center my-0"><?=$listrd[1]?></h3>
-            <p class="text-truncate my-0"><?=$listrd[2]?></p>
+            <p class="my-0"><?=substr($listrd[2],0,50)?></p>
           </div>
         </div>
         <?php } ?>
