@@ -231,7 +231,7 @@
 
 </head>
   <body>
-    <?php require 'header.php' ?>
+    <!-- <?php require 'header.php' ?> -->
     <section class=" p-0 " style="margin-top: 100px;">
   <div id="demo" class="carousel slide" data-ride="carousel">
 
@@ -478,7 +478,7 @@
                 </div>
             </div>
       </div>
-<?php require 'footer.php'?>
+<!-- <?php require 'footer.php'?> -->
 <script>
     $(document).ready(function(){
         $("#myModal").modal('show');
