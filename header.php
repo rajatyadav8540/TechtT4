@@ -293,7 +293,7 @@ li a: hover{
 </style>
 </head>
   <body>
-    <?php require 'common.php' ?>
+
   <nav class="navbar navbar-expand-lg navbar-light fixed-top" onscroll="BgWhite()" id="n1" style="background:white; height:70px;" id="bgWhite">
 <div class="container">
   <a class="navbar-brand " id="loog" href="/" style="width: fit-content"><img src="static/logo.png" style="width: 55px; height: 55px; overflow: hidden; border-radius: 50%;"></a>
